@@ -52,27 +52,27 @@ export default function App() {
       <div className="flex-container">
         <div>
           <div>Celular</div>
-          <div>R${}</div>
+          <div>R${phone}</div>
           <button>
-            {}
+            {smartphoneButton}
           </button>
-          <div>{}</div>
+          <div>{lastBidOnSmartphone}</div>
         </div>
         <div>
           <div>TV</div>
-          <div>R${}</div>
+          <div>R${tv}</div>
           <button>
-            {}
+            {smarttvButton}
           </button>
-          <div>{}</div>
+          <div>{lastBidOnSmarttv}</div>
         </div>
         <div>
           <div>Notebook</div>
-          <div>R${}</div>
+          <div>R${note}</div>
           <button>
-            {}
+            {notebookButton}
           </button>
-          <div>{}</div>
+          <div>{lastBidOnNotebook}</div>
         </div>
       </div>
     </div>
